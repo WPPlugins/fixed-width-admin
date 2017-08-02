@@ -1,0 +1,24 @@
+#wpwrap {
+	width: 1300px; /* Change width here */
+	height: auto;
+	margin-left: auto; /* Remove line to pin admin area to left */
+	margin-right: auto; /* Remove line to pin admin area to right */
+	background-color: white; /* I wouldn't mess with this if I were you */
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    /* Set background color for the areas to the left and right of admin area */
+    background: rgb(204,204,204); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(204,204,204,1) 0%, rgba(204,204,204,1) 47%, rgba(238,238,238,1) 100%) fixed; /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,204,204,1)), color-stop(47%,rgba(204,204,204,1)), color-stop(100%,rgba(238,238,238,1))) fixed; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(204,204,204,1) 0%,rgba(204,204,204,1) 47%,rgba(238,238,238,1) 100%) fixed; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(204,204,204,1) 0%,rgba(204,204,204,1) 47%,rgba(238,238,238,1) 100%) fixed; /* Opera11.10+ */
+    background: -ms-linear-gradient(top, rgba(204,204,204,1) 0%,rgba(204,204,204,1) 47%,rgba(238,238,238,1) 100%) fixed; /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#eeeeee',GradientType=0 ) fixed; /* IE6-9 */
+    background: linear-gradient(top, rgba(204,204,204,1) 0%,rgba(204,204,204,1) 47%,rgba(238,238,238,1) 100%) fixed; /* W3C */
+}
+
+
